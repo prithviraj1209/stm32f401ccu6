@@ -4,7 +4,7 @@
 #define SDA1_PIN 9  // Choose either 7 or 9 for SDA1
 #define SCL1_PIN 8  // Choose either 6 or 8 for SCL1
 
-void I2C1_Init(void) {
+void i2c_config(void) {
     // 1. Enable I2C clock and GPIO clock
     RCC->APB1ENR |= RCC_APB1ENR_I2C1EN;  // Enable I2C1 clock
     RCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN; // Enable GPIOB clock
