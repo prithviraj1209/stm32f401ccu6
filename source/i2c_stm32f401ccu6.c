@@ -58,7 +58,7 @@ void i2c_config(void) {
 }
 
 void i2c_startSeq(void){
-	  /*************** STEPS FOLLOWED******************
+    /*************** STEPS FOLLOWED******************
      * 1. Send the start sequnce.
      * 2. Wait for the SB bit to be set.
     ************************************************/
